@@ -8,4 +8,4 @@ The drawing area for the circles will be the entire screen. You can keep the tit
 of the screen if you like. There is no need for menus or instructions on how to use the app.
 The user can set a circle in motion by placing a finger on a circle and swiping in any direction.
 The circles will start moving in direction and velocity indicated by the swipe. Different circles
-can be moving in different directions with different speeds.
+can be moving in different directions with different speeds. Classes and methods are self explainatory.
