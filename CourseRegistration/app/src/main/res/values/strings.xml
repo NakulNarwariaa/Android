@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Course Registration</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="e_mail">E-mail</string>
+    <string name="major">Major</string>
+    <string name="red_id">Red Id</string>
+    <string name="password">Password</string>
+    <string name="save_profile">Save Profile</string>
+    <string name="continueButton">Continue</string>
+    <string name="empty_field">One or more field left empty</string>
+    <string name="red_id_constraint">Red Id must be 9 digits</string>
+    <string name="existing_user">Existing User</string>
+    <string name="new_user">New User</string>
+    <string name="my_wait_list">My Wait List</string>
+    <string name="register_for_a_class">Register For A Class</string>
+    <string name="my_classes">My Classes</string>
+    <string name="empty_list">No courses available</string>
+    <string name="no_selections_made">No selections made for search</string>
+    <string name="end_time_24_hours">End Time (24 Hours)</string>
+    <string name="search">Search</string>
+    <string name="clear">Clear</string>
+    <string name="start_time_24_hours">Start Time (24 Hours)</string>
+    <string name="course_full">Course is full, add to wait list ?</string>
+    <string name="class_level">Class Level</string>
+    <string name="drop_sure">Are you sure you want to drop this course? </string>
+    <string name="add_sure">Are you sure you want to add this course? </string>
+    <string name="drop_successful">Class Dropped</string>
+    <string name="add_successful">Class Added</string>
+    <string name="confirm">Confirm?</string>
+    <string name="title">Title :</string>
+    <string name="time">Time :</string>
+    <string name="location">Location :</string>
+    <string name="course_no">Course No :</string>
+    <string name="units">Units :</string>
+    <string name="seats">Seats :</string>
+    <string name="waitlisted">Waitlisted :</string>
+    <string name="prerequisite">Prerequisite:</string>
+    <string name="instructor">Instructor :</string>
+    <string name="description">Description :</string>
+    <string name="class_label">Class</string>
+    <string name="enrolled">Enrolled :</string>
+    <string name="sdsu_login">SDSU Login</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="course_description">Course Description</string>
+    <string name="available_courses">Available Courses</string>
+    <string name="class_search">Class Search</string>
+    <string name="drop_classes">Drop Class</string>
+    <string name="add_class">Add Class</string>
+    <string name="student_registered">Student Registered in the Server.</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="time_format">HHMM</string>
+    <string name="incorrect_login">Login details do not match, try again!</string>
+
+    //URLS
+    <string name="subject_list">https://bismarck.sdsu.edu/registration/subjectlist</string>
+    <string name="course_id_list">https://bismarck.sdsu.edu/registration/classidslist?</string>
+    <string name="class_details">https://bismarck.sdsu.edu/registration/classdetails?classid=%s</string>
+    <string name="class_details_post">https://bismarck.sdsu.edu/registration/classdetails</string>
+    <string name="register_student">https://bismarck.sdsu.edu/registration/addstudent</string>
+    <string name="register_class_get">https://bismarck.sdsu.edu/registration/registerclass?redid=%s&amp;password=%s&amp;courseid=%s</string>
+    <string name="waitlist_class_get">https://bismarck.sdsu.edu/registration/waitlistclass?redid=%s&amp;password=%s&amp;courseid=%s</string>
+    <string name="unregister_class_get">https://bismarck.sdsu.edu/registration/unregisterclass?redid=%s&amp;password=%s&amp;courseid=%s</string>
+    <string name="unwaitlist_class_get"> https://bismarck.sdsu.edu/registration/unwaitlistclass?redid=%s&amp;password=%s&amp;courseid=%s</string>
+    <string name="student_classes_get"> https://bismarck.sdsu.edu/registration/studentclasses?redid=%s&amp;password=%s</string>
+    <string name="welcome_to_sdsu">Welcome To SDSU</string>
+    <string name="invalid_start_time">Invalid start time</string>
+    <string name="invalid_end_time">Invalid end time</string>
+
+
+</resources>

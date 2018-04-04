@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nakulnarwaria.courseregistration.CourseDetails">
+
+
+
+        <TextView
+            android:id="@+id/titleTV"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/title"
+            app:layout_constraintEnd_toStartOf="@+id/titleDisplayTV"
+
+            app:layout_constraintHorizontal_bias="0.266"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/timeTV"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+
+            android:text="@string/time"
+            app:layout_constraintEnd_toStartOf="@+id/timeDisplayTV"
+            app:layout_constraintHorizontal_bias="0.266"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titleTV" />
+
+        <TextView
+            android:id="@+id/locationTV"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/location"
+            app:layout_constraintEnd_toStartOf="@+id/locationDisplayTV"
+            app:layout_constraintHorizontal_bias="0.266"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/timeTV" />
+
+        <TextView
+            android:id="@+id/courseNoTV"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/course_no"
+            app:layout_constraintEnd_toStartOf="@+id/courseNoDisplayTV"
+            app:layout_constraintHorizontal_bias="0.266"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/instructorTV"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <TextView
+            android:id="@+id/unitsTV"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+
+            android:text="@string/units"
+            app:layout_constraintEnd_toStartOf="@+id/unitsDisplayTV"
+            app:layout_constraintHorizontal_bias="0.266"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/courseNoTV" />
+
+        <TextView
+            android:id="@+id/seatsTV"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+
+            android:text="@string/seats"
+            app:layout_constraintEnd_toStartOf="@+id/seatsDisplayTV"
+            app:layout_constraintHorizontal_bias="0.266"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/unitsTV" />
+
+        <TextView
+            android:id="@+id/enrolledTV"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/enrolled"
+
+            app:layout_constraintEnd_toStartOf="@+id/enrolledDisplayTV"
+            app:layout_constraintHorizontal_bias="0.266"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/seatsTV" />
+
+        <TextView
+            android:id="@+id/waitlistedTV"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/waitlisted"
+            app:layout_constraintEnd_toStartOf="@+id/waitlistedDisplayTV"
+
+            app:layout_constraintHorizontal_bias="0.266"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/enrolledTV" />
+
+        <TextView
+            android:id="@+id/prerequisite"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/prerequisite"
+            app:layout_constraintEnd_toStartOf="@+id/prerequisiteDisplayTV"
+            app:layout_constraintHorizontal_bias="0.266"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/waitlistedTV" />
+
+        <TextView
+            android:id="@+id/instructorTV"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/instructor"
+            app:layout_constraintEnd_toStartOf="@+id/instructorDisplayTV"
+            app:layout_constraintHorizontal_bias="0.266"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/locationTV" />
+
+        <TextView
+            android:id="@+id/descriptionTV"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="48dp"
+            android:text="@string/description"
+            app:layout_constraintEnd_toStartOf="@+id/descriptionDisplayTV"
+
+            app:layout_constraintHorizontal_bias="0.266"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/prerequisite" />
+
+        <TextView
+            android:id="@+id/titleDisplayTV"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="15dp"
+            app:layout_constraintBottom_toTopOf="@+id/timeDisplayTV"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <TextView
+            android:id="@+id/timeDisplayTV"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/locationDisplayTV"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/locationDisplayTV"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="77dp"
+            app:layout_constraintBottom_toTopOf="@+id/instructorDisplayTV"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="spread_inside"/>
+
+
+        <TextView
+            android:id="@+id/instructorDisplayTV"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="104dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/courseNoDisplayTV"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/instructorDisplayTV" />
+
+        <TextView
+            android:id="@+id/unitsDisplayTV"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/courseNoDisplayTV" />
+
+        <TextView
+            android:id="@+id/seatsDisplayTV"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/unitsDisplayTV" />
+
+        <TextView
+            android:id="@+id/enrolledDisplayTV"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/seatsDisplayTV" />
+
+        <TextView
+            android:id="@+id/waitlistedDisplayTV"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/enrolledDisplayTV" />
+
+        <TextView
+            android:id="@+id/prerequisiteDisplayTV"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="92dp"
+            android:layout_marginEnd="8dp"
+            android:maxLines = "50"
+            android:scrollbars = "vertical"
+            app:layout_constraintBottom_toTopOf="@+id/addOrDropButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/waitlistedDisplayTV"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/descriptionDisplayTV"
+            android:layout_width="250dp"
+            android:layout_height="111dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            android:maxLines="50"
+            android:scrollbars="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/prerequisiteDisplayTV" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="-40dp" />
+
+        <Button
+            android:id="@+id/addOrDropButton"
+            android:layout_width="225dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="72dp"
+
+            android:text="@string/class_label"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/descriptionTV" />
+    </android.support.constraint.ConstraintLayout>

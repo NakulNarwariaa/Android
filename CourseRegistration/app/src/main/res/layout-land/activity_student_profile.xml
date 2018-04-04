@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.example.nakulnarwaria.courseregistration.StudentProfile">
+    >
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/firstNameTV"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="108dp"
+            android:layout_marginTop="36dp"
+            android:text="@string/first_name"
+            app:layout_constraintEnd_toStartOf="@+id/firstNameET"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/lastNameTV"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="108dp"
+            android:text="@string/last_name"
+            app:layout_constraintEnd_toStartOf="@+id/lastNameET"
+            app:layout_constraintTop_toBottomOf="@+id/firstNameTV" />
+
+        <EditText
+            android:id="@+id/firstNameET"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="36dp"
+            android:ems="10"
+            android:imeOptions="flagNoExtractUi"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/lastNameET"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="16dp"
+            android:ems="10"
+            android:imeOptions="flagNoExtractUi"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/firstNameET" />
+
+        <TextView
+            android:id="@+id/redIdTV"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="108dp"
+            android:text="@string/red_id"
+            app:layout_constraintEnd_toStartOf="@+id/ageET"
+            app:layout_constraintTop_toBottomOf="@+id/lastNameTV" />
+
+        <TextView
+            android:id="@+id/passwordTV"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="108dp"
+            android:text="@string/password"
+            app:layout_constraintEnd_toStartOf="@+id/passwordET"
+            app:layout_constraintTop_toBottomOf="@+id/emailTV" />
+
+        <TextView
+            android:id="@+id/emailTV"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="108dp"
+            android:text="@string/e_mail"
+            app:layout_constraintEnd_toStartOf="@+id/emailET"
+            app:layout_constraintTop_toBottomOf="@+id/redIdTV" />
+
+        <EditText
+            android:id="@+id/ageET"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="16dp"
+            android:ems="10"
+            android:imeOptions="flagNoExtractUi"
+            android:inputType="numberSigned"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lastNameET" />
+
+        <EditText
+            android:id="@+id/emailET"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="16dp"
+            android:ems="10"
+            android:imeOptions="flagNoExtractUi"
+            android:inputType="textEmailAddress"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ageET" />
+
+        <EditText
+            android:id="@+id/passwordET"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="16dp"
+            android:ems="10"
+            android:imeOptions="flagNoExtractUi"
+            android:inputType="textPassword|textWebPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/emailET" />
+
+        <Button
+            android:id="@+id/saveProfileButton"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/save_profile"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/continueButton"
+            app:layout_constraintHorizontal_bias="0.348"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/passwordTV" />
+
+        <Button
+            android:id="@+id/continueButton"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/continueButton"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/passwordET" />
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
