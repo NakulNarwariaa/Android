@@ -18,6 +18,7 @@ The first or main activity collects the basic information about a person. This a
 * Email
 * Phone
 * Major
+
 For each of the first five items (first name, last name, age, email and phone) use a text field to allow the user to enter the data. In each text field the appropriate keyboard is used. All items need a label indicating what information they contain (first name, last name, etc). All items are on a separate line. To select a major the user needs to go to a second activity.
 Finally there is a done button. When the done button is pressed the user information is saved.
 When the app is killed and restarted the saved data is displayed in this activity.
