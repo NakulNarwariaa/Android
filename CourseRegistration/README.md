@@ -4,7 +4,7 @@ A complete Android application that explores Networking and user interfaces, and
 *	Android application for students to register for courses offered in SDSU. 
 *	Login functionality and Dashboard for user which lets user see their registered courses and schedule. 
 *	Filter functionality for course search for efficient results.
-* Saved user credentials for better user experience.
+* Saving user credentials for better user experience.
 
 
 # App Description
